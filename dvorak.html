@@ -34,7 +34,7 @@
     <meta property="og:title" content="dvorak" />
     <meta property="og:description" content="Just a nerdy dude writing a nerdy blog" />
     <meta property="og:url" content="http://localhost:4000/dvorak" />
-    <meta property="og:image" content="/assets/images/keyboard.jpg" />
+    <meta property="og:image" content="http://localhost:4000//assets/images/keyboard.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:tag" content="Keyboard" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -101,21 +101,21 @@ into the {body} of the default.hbs template -->
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
-
-
+        
+            
                 <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="sm0g" /></a>
-
-
-
+            
+        
+        
     </div>
     <div class="site-nav-right">
         <div class="social-links">
-
-
+            
+            
         </div>
-
+        
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
-
+        
     </div>
 </nav>
 
@@ -133,26 +133,26 @@ into the {body} of the default.hbs template -->
             <header class="post-full-header">
                 <section class="post-full-meta">
                     <time class="post-full-meta-date" datetime="23 May 2018">23 May 2018</time>
-
+                    
                         <span class="date-divider">/</span>
-
-
+                        
+                            
                                <a href='/tag/keyboard/'>KEYBOARD</a>,
-
-
-
+                            
+                        
+                            
                                <a href='/tag/computer/'>COMPUTER</a>
-
-
-
+                            
+                        
+                    
                 </section>
                 <h1 class="post-full-title">dvorak</h1>
             </header>
 
-
+            
             <figure class="post-full-image" style="background-image: url(//assets/images/keyboard.jpg)">
             </figure>
-
+            
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
@@ -195,7 +195,7 @@ into the {body} of the default.hbs template -->
             </section>
 
             <!-- Email subscribe form at the bottom of the page -->
-
+            
                 <section class="subscribe-form">
                     <h3 class="subscribe-form-title">Subscribe to sm0g</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
@@ -210,33 +210,33 @@ into the {body} of the default.hbs template -->
 </form>
 
                 </section>
-
+            
 
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
                 <!-- /author  -->
             </footer>
 
             <!-- If you use Disqus comments, just uncomment this block.
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id. -->
-
+            
 
         </article>
 
@@ -247,18 +247,18 @@ into the {body} of the default.hbs template -->
 <aside class="read-next outer">
     <div class="inner">
         <div class="read-next-feed">
-
-
-
-
-
-
+            
+                
+                
+                
+                
+            
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
-
+            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-
+            
 
         </div>
     </div>
@@ -268,9 +268,9 @@ into the {body} of the default.hbs template -->
 <div class="floating-header">
     <div class="floating-header-logo">
         <a href="http://localhost:4000/">
-
+            
                 <img src="/assets/images/favicon.png" alt="sm0g icon" />
-
+            
             <span>sm0g</span>
         </a>
     </div>
@@ -306,7 +306,7 @@ into the {body} of the default.hbs template -->
 
 
         <!-- Previous/next page links - displayed on every page -->
-
+        
 
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
@@ -317,8 +317,8 @@ into the {body} of the default.hbs template -->
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
                 <nav class="site-footer-nav">
                     <a href="/">Latest Posts</a>
-
-
+                    
+                    
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
                 </nav>
             </div>
@@ -327,13 +327,13 @@ into the {body} of the default.hbs template -->
     </div>
 
     <!-- The big email subscribe modal content -->
-
+    
         <div id="subscribe" class="subscribe-overlay">
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
-
+                
                     <img class="subscribe-overlay-logo" src="/assets/images/blog-icon.png" alt="sm0g" />
-
+                
                 <h1 class="subscribe-overlay-title">Subscribe to sm0g</h1>
                 <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
                 <form method="post" action="/subscribe/" class="">
@@ -348,7 +348,7 @@ into the {body} of the default.hbs template -->
 
             </div>
         </div>
-
+    
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
@@ -376,7 +376,7 @@ into the {body} of the default.hbs template -->
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
 
-
+    
 
 
     <!-- Add Google Analytics  -->
@@ -394,7 +394,7 @@ into the {body} of the default.hbs template -->
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
-
+    
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
     <!-- ghost_foot -->
